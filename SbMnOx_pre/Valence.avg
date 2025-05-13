@@ -1,0 +1,151 @@
+;========================================================================
+;Dump of DataSpace 'C:\Data\Gustav\20250325\SbMnOx_pre\Experiment\Mono 400µm\Multi Point\Valence.VGD'
+; on 25/3/2025 at 17:12:45
+;========================================================================
+
+
+;[Note that this file can be reloaded only if certain syntax rules are NOT broken]
+
+$FORMAT=4
+
+
+;Summary Properties present:
+$PROPERTIES=SUM
+DS_EXT_SUPROPID_TITLE       : VT_BSTR = 'Valence'
+DS_EXT_SUPROPID_SUBJECT     : VT_BSTR = 'SbMnOx_pre'
+DS_EXT_SUPROPID_AUTHOR      : VT_BSTR = 'engineer'
+DS_EXT_SUPROPID_COMMENTS    : VT_BSTR = ''
+DS_EXT_SUPROPID_CREATED     : VT_DATE = 25/3/2025   10:51:56
+DS_EXT_SUPROPID_SAVED       : VT_DATE = 25/3/2025   10:57:37
+
+;Standard Properties present:
+$PROPERTIES=STD
+DS_GEPROPID_INSTRUMENT                      : VT_BSTR = 'Theta'
+DS_GEPROPID_SOURCE_TYPE                     : VT_I4   = 1
+DS_GEPROPID_GUID                            : VT_BSTR = '{FF893543-90A6-492F-BAF6-E74EFA28FCFE}'
+DS_GEPROPID_SOURCE_GUID                     : VT_BSTR = '{FF893543-90A6-492F-BAF6-E74EFA28FCFE}'
+DS_GEPROPID_EXPT_RUN_GUID                   : VT_BSTR = '{A89E55FD-40B0-42FA-8386-425C2AA86128}'
+DS_GEPROPID_VALUE_TYPE                      : VT_I4   = 11
+DS_GEPROPID_VALUE_LABEL                     : VT_BSTR = 'Counts'
+DS_GEPROPID_VALUE_SYMBOL                    : VT_BSTR = 'C'
+DS_GEPROPID_VALUE_UNIT                      : VT_BSTR = ''
+DS_DATASTORAGEID_DATA_STORAGE_METHOD        : VT_I4   = 0
+DS_SOPROPID_STYPE                           : VT_I4   = 10
+DS_SOPROPID_MONO                            : VT_BOOL = True
+DS_SOPROPID_ENERGY                          : VT_R4   = 1486.680054
+DS_SOPROPID_VOLTAGE                         : VT_R4   = 15000.000000
+DS_SOPROPID_CURRENT                         : VT_R4   = 0.006700
+DS_SOPROPID_WIDTH                           : VT_R4   = 400.000000
+DS_SOPROPID_LENGTH                          : VT_R4   = 400.000000
+DS_SOPROPID_GUN                             : VT_I2   = 0
+DS_STPROPID_POS_X                           : VT_I4   = 37188000
+DS_STPROPID_POS_Y                           : VT_I4   = -24690500
+DS_STPROPID_POS_Z                           : VT_I4   = 14608993
+DS_STPROPID_POS_TILT                        : VT_I4   = -1400
+DS_STPROPID_POS_AZIM                        : VT_I4   = 115200
+DS_ACPROPID_START_TIME                      : VT_DATE = 25/3/2025   10:52:58
+DS_ACPROPID_END_TIME                        : VT_DATE = 25/3/2025   10:57:37
+DS_ACPROPID_ACQ_TIME                        : VT_R4   = 0.050000
+DS_ACPROPID_PERIODS                         : VT_I4   = 20
+DS_ACPROPID_MODE                            : VT_I2   = 2
+DS_ACPROPID_DIRECTION                       : VT_I2   = 1
+DS_ACPROPID_SIG_COMP                        : VT_BOOL = True
+DS_ACPROPID_EV_SCALE                        : VT_I2   = 1
+DS_ANPROPID_MODE                            : VT_I2   = 1
+DS_ANPROPID_PASS                            : VT_R4   = 40.000000
+DS_ANPROPID_WORK_FTN                        : VT_R4   = 4.752040
+DS_ANPROPID_LENS_MODE_NAME                  : VT_BSTR = 'Standard'
+DS_ANPROPID_TXFN_COEFFS                     : VT_I4   = 4
+DS_ANPROPID_TXFN_REMOVED                    : VT_BOOL = False
+; Property list for DS_ANPROPID_TXFN_COEFF (expecting 4) follows:
+DS_ANPROPID_TXFN_COEFF[0]                        : VT_R4   = 4.808355
+DS_ANPROPID_TXFN_COEFF[1]                        : VT_R4   = 0.077248
+DS_ANPROPID_TXFN_COEFF[2]                        : VT_R4   = -0.169792
+DS_ANPROPID_TXFN_COEFF[3]                        : VT_R4   = -0.017249
+
+;Extended Properties present:
+$PROPERTIES=EXT
+;   NONE found
+
+;========================================================================
+
+;DataSpace has 2 data axes as follows:
+;   #=      start,     end,       numSpaceAxes
+$DATAAXES=2,#empty#
+    0=        0,      225,          1
+    1=        0,        0,          3
+
+;========================================================================
+
+;DataSpace has 4 space axes as follows:
+;   #=       start,         width,       numPoints,  axisType,   linear,  symbol,     unit,      label
+$SPACEAXES=4
+    0=    1446.680000,       0.200000,      226,  ENERGY,   LINEAR,  'E',   'eV',    'Energy'
+    1=       1.000000,       1.000000,        1,  POSITION,   LINEAR,  'Pos',   '',    'Position'
+    2=   37188.000000,       0.000000,        1,  X,   NON-LINEAR,  'X',   'µm',    'X'
+    3=   -24690.500000,       0.000000,        1,  Y,   NON-LINEAR,  'Y',   'µm',    'Y'
+
+;========================================================================
+
+;Values on axis 0 where axis 1 = 0; 
+$AXISVALUE= DATAXIS=1 SPACEAXIS=1 LABEL='Position' POINT=0 VALUE='Pt #001';
+$AXISVALUE= DATAXIS=1 SPACEAXIS=2 LABEL='X' POINT=0 VALUE=37188.000000;
+$AXISVALUE= DATAXIS=1 SPACEAXIS=3 LABEL='Y' POINT=0 VALUE=-24690.500000;
+$DATA=*,0
+LIST@   0=       51.597862,       47.679924,       60.233922,       60.322637
+LIST@   4=       48.353729,       50.185787,       52.122305,       46.016181
+LIST@   8=       44.685281,       51.314618,       45.241818,       52.720731
+LIST@  12=       37.853147,       40.699125,       48.668186,       59.905527
+LIST@  16=       39.952619,       57.581265,       81.757870,       84.835666
+LIST@  20=      109.705561,      117.807897,      114.768132,      120.536330
+LIST@  24=      105.195212,      108.775434,      128.862634,      111.909460
+LIST@  28=      108.316380,      123.365631,      103.440784,       81.013129
+LIST@  32=       72.500215,       54.068901,       47.870945,       38.259246
+LIST@  36=       35.997370,       40.214495,       34.358832,       52.534959
+LIST@  40=       40.018445,       52.383625,       38.273659,       28.238799
+LIST@  44=       44.709694,       50.264858,       38.113754,       40.258208
+LIST@  48=       40.752925,       34.185946,       43.831453,       32.643063
+LIST@  52=       38.238823,       39.575746,       55.532448,       50.256757
+LIST@  56=       57.681115,       69.836459,       82.858197,       89.492595
+LIST@  60=      113.140409,      140.076317,      167.268120,      167.031105
+LIST@  64=      218.536273,      227.540100,      244.340372,      267.117554
+LIST@  68=      279.237952,      255.717278,      247.398082,      204.810391
+LIST@  72=      157.461062,      138.418571,      101.174284,       73.736655
+LIST@  76=       82.157521,       56.630453,       53.236864,       46.992678
+LIST@  80=       57.358865,       61.472180,       64.204585,       58.189751
+LIST@  84=       66.344665,       64.067759,       69.582767,       59.768260
+LIST@  88=       63.813312,       77.618184,       89.857740,       78.598954
+LIST@  92=       85.888366,       84.711828,       68.715935,       72.948926
+LIST@  96=       68.873126,       51.174788,       48.330631,       40.303400
+LIST@ 100=       45.229522,       37.086138,       29.316288,       33.613589
+LIST@ 104=       35.170179,       31.744891,       23.833499,       27.141661
+LIST@ 108=       20.905262,       24.445984,       24.901679,       29.099861
+LIST@ 112=       39.238307,       28.464090,       37.181274,       28.755559
+LIST@ 116=       25.471404,       34.200026,       41.958842,       37.001419
+LIST@ 120=       37.099899,       45.542429,       25.091407,       26.934612
+LIST@ 124=       23.814500,       12.169418,       15.914798,       19.174487
+LIST@ 128=       10.266109,       19.326748,       17.935838,       18.112721
+LIST@ 132=       23.066602,       13.495421,       13.490868,       16.760837
+LIST@ 136=       17.146393,       18.584230,       17.564712,       16.951667
+LIST@ 140=       15.936024,       12.483349,       21.008781,       13.530661
+LIST@ 144=       19.853241,       23.887573,       15.817392,       16.325137
+LIST@ 148=       20.351675,       19.301484,       23.360260,       22.143734
+LIST@ 152=       24.869988,       26.303899,       19.239647,       31.327302
+LIST@ 156=       23.294931,       21.760125,       25.679175,       31.710571
+LIST@ 160=       21.804124,       28.557214,       24.627407,       34.120828
+LIST@ 164=       25.280812,       35.579227,       42.168270,       49.315526
+LIST@ 168=       30.344618,       30.418528,       47.751704,       51.585103
+LIST@ 172=       33.053257,       40.527305,       56.619803,       46.001986
+LIST@ 176=       37.149533,       47.974832,       39.150811,       51.007250
+LIST@ 180=       44.559399,       30.589871,       41.430282,       34.278690
+LIST@ 184=       36.511866,       33.217516,       23.844153,       29.824204
+LIST@ 188=       25.528152,       19.919757,       13.653931,       18.062436
+LIST@ 192=       23.949047,       10.798820,        9.633943,       14.418348
+LIST@ 196=        4.370402,        4.464210,        0.991337,        0.780125
+LIST@ 200=        1.234028,        1.001072,        1.964805,        1.189850
+LIST@ 204=        0.745569,        1.012729,        1.532113,        0.152561
+LIST@ 208=        2.047585,        1.868435,        0.994765,        3.300178
+LIST@ 212=        0.250580,        0.958484,        2.402781,        0.000000
+LIST@ 216=        1.206592,        1.044008,        0.000000,        4.829858
+LIST@ 220=        1.121731,        1.476583,        2.795329,        1.137778
+LIST@ 224=        0.727413,        1.229596
